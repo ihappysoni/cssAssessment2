@@ -1,0 +1,138 @@
+body{
+    border-top: green  solid 5px;
+    border-right: greenyellow 5px solid;
+    border-bottom: green  solid 5px;
+    border-left: greenyellow 5px solid;
+    margin: 0px;
+    position:relative;
+    background-image: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+#main{
+    border-top: greenyellow  solid 5px;
+    border-right: green 5px solid;
+    border-bottom: greenyellow  solid 5px;
+    border-left: green 5px solid;  
+}
+.nav{
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+
+}
+hr{
+    width:100%
+}
+.navbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: rgb(247, 18, 18) 5px solid;
+    color: white;
+    font-size: 24px;
+    box-sizing: content-box;
+    border-radius: 15px;
+    font-family:cursive;
+}
+#fb{
+    height: 150px;
+    width: 20%;
+    padding-left: 20px;
+    }
+#sb{
+    font-size: 18px;
+    position: relative;
+    right: 100px;
+    height: 50px;
+    width: 20%;
+    
+    } 
+#tb{
+    position: relative;
+    left: 280px;
+    height: 150px;
+    width: 33%;
+    }
+
+.bodyOne{
+    display: flex ;
+    margin-top: 50px;
+    
+}
+#circle{
+    font-family: cursive;
+    margin: 80px 20px;
+    border: 12px solid slategray;
+    height: 300px;
+    width: 450px;
+    padding-top: 150px;
+    text-align:center;
+    box-sizing:content-box;
+    border-radius: 50%;
+    background-color:skyblue;
+    justify-content: center;
+    align-content: center;
+
+
+}
+#form{
+    position: relative;
+    left: 400px;
+    text-align: center;
+    align-content: center;
+    height: 650px; 
+    width: 450px;
+    font-family: fantasy;
+    color: red;
+    background-color: white;
+    border: 5px dashed red;
+    line-height: 22px;
+}
+#menu{
+    padding: 10px                             ;
+    border-radius: 20px;
+    margin: 20px 33% ;
+    height: 50px;
+    width: 33%;
+    text-align: center;
+    background-color: black;
+    border: brown 4px solid;
+    color: white;
+}
+#box1{
+    display: flex-box;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 60px 80px ;
+    height: 350px;
+    width: 22%;
+    border: green 3px solid;
+    border-radius: 20px;
+    background-color: aqua;
+    line-height: 30px;
+}
+.halfthree{
+    align-content: center;
+    display: flex;
+}
+.circont{
+    text-decoration: underline;
+    
+}
+.a{
+    width: 380px;
+}
+ul{
+    font-size: 18px;
+    font-family: cursive;
+}
+p{
+    margin: 3px;
+}
+label{
+    font-family: cursive;
+}
+h2{
+    font-size: 26px;
+    font-family: monospace;
+}
